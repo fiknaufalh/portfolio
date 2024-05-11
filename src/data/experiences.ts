@@ -19,7 +19,7 @@ export const experiences = [
   {
     id: 1,
     img: "https://yt3.googleusercontent.com/YRg_vXnxrn5WlaImgTpgKZVwDfgVZtdYLK0wPgXjalvVB_83znmGy8FjAiDzCmxKPJ_Nmnbkpg=s900-c-k-c0x00ffffff-no-rj",
-    role: "Android Developer Cohort",
+    role: "Mobile Developer Cohort",
     company: "Bangkit Academy by Google, GoTo, Traveloka",
     date: "Jan 2024 - Jun 2024 (expected)",
     desc: `Built 3+ android applications using Kotlin with recycler view, fragmentation, intent, room, datastore, and retrofit;\n
