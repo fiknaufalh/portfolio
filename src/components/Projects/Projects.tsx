@@ -29,9 +29,12 @@ type ProjectsProps = {
             }[];
             github: string;
             webapp: string;
-        };
+        } | null;
     };
-    setOpenModal: (openModal: { state: boolean; project: Project }) => void;
+    setOpenModal: (openModal: {
+        state: boolean;
+        project: Project;
+    }) => void | null;
 };
 
 const Projects = ({ openModal, setOpenModal }: ProjectsProps) => {
