@@ -19,10 +19,10 @@ export type Project = {
     date: string;
     description: string;
     member?: { img: string }[];
-};
+} | null;
 
 type ProjectCardsProps = {
-    project: Project;
+    project: Project | null;
     openModal: {
         state: boolean;
         project: Project;
@@ -33,19 +33,19 @@ type ProjectCardsProps = {
 const ProjectCards = ({ project, setOpenModal }: ProjectCardsProps) => {
     return (
         <Card onClick={() => setOpenModal({ state: true, project: project })}>
-            <Image src={project.image} />
+            <Image src={project?.image} />
             <Tags>
-                {project.tags?.map((tag, index) => (
+                {project?.tags?.map((tag, index) => (
                     <Tag key={index}>{tag}</Tag>
                 ))}
             </Tags>
             <Details>
-                <Title>{project.title}</Title>
-                <Date>{project.date}</Date>
-                <Description>{project.description}</Description>
+                <Title>{project?.title}</Title>
+                <Date>{project?.date}</Date>
+                <Description>{project?.description}</Description>
             </Details>
             <Members>
-                {project.member?.map((member, index) => (
+                {project?.member?.map((member, index) => (
                     <Avatar key={index} src={member.img} />
                 ))}
             </Members>

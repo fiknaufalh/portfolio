@@ -55,7 +55,7 @@ export const projects = [
       Using MySQL as database system that deployed in Azure Database for MySQL service;\n
       Deploy the microservice in the Azure Container Service using Docker`,
     image:
-      "https://raw.githubusercontent.com/fiknaufalh/portfolio/main/src/images/BevBuddy%20-%20Recommendation.png?token=GHSAT0AAAAAACQVYSRZ7OQ4PFUKDC5J5G2QZR7H7BQ",
+      "https://raw.githubusercontent.com/fiknaufalh/portfolio/main/src/images/BevBuddy%20-%20Recommendation.png?token=GHSAT0AAAAAACQVYSRYMHRXS3ZR42S6ANHUZR7NDHQ",
     tags: [
       "Python",
       "FastAPI",
