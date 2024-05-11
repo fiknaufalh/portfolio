@@ -9,8 +9,7 @@ export const projects = [
       Using PostgreSQL as database system with Supabase support for database platform;\n
       Developed components and pages as the frontend using ReactJS and TailwindCSS`,
     image:
-      // "../../images/MealsHub - Dashboard.png",
-      "../images/MealsHub - Dashboard.png",
+      "https://raw.githubusercontent.com/fiknaufalh/portfolio/main/src/images/MealsHub%20-%20Dashboard.png?token=GHSAT0AAAAAACQVYSRZN4373O77D2K5VC2EZR7H7TQ",
     tags: [
       "React Js",
       "TypeScript",
@@ -33,7 +32,7 @@ export const projects = [
       Using MySQL as database system that deployed in Azure Database for MySQL service;\n
       Using Vercel as hosting platform for web application deployment`,
     image:
-      "",
+      "https://raw.githubusercontent.com/fiknaufalh/portfolio/main/src/images/Plantix%20-%20Dashboard.png?token=GHSAT0AAAAAACQVYSRYFAFGT76MERDMYU2SZR7H77A",
     tags: [
       "React Js",
       "TailwindCSS",
@@ -56,7 +55,7 @@ export const projects = [
       Using MySQL as database system that deployed in Azure Database for MySQL service;\n
       Deploy the microservice in the Azure Container Service using Docker`,
     image:
-      "",
+      "https://raw.githubusercontent.com/fiknaufalh/portfolio/main/src/images/BevBuddy%20-%20Recommendation.png?token=GHSAT0AAAAAACQVYSRZ7OQ4PFUKDC5J5G2QZR7H7BQ",
     tags: [
       "Python",
       "FastAPI",
@@ -79,7 +78,7 @@ export const projects = [
       Created favorite feature for users to manage their favorite GitHub user using Room local database;\n
       Created switch theme mode feature between dark mode and light mode setting using Datastore local database`,
     image:
-      "",
+      "https://raw.githubusercontent.com/fiknaufalh/portfolio/main/src/images/GitHub%20Finder.png?token=GHSAT0AAAAAACQVYSRZXRK7FTKJTC73OX4WZR7H7KQ",
     tags: [
       "Android",
       "Kotlin",
@@ -103,7 +102,7 @@ export const projects = [
       Created article feature for users to read the article about skin cancer;\n`
       ,
     image:
-      "",
+      "https://raw.githubusercontent.com/fiknaufalh/portfolio/main/src/images/Asclepius.png?token=GHSAT0AAAAAACQVYSRYYOOEYIXQNQ3XVYYCZR7H6UQ",
     tags: [
       "Android",
       "Kotlin",
