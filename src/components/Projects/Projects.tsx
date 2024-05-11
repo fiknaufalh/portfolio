@@ -12,32 +12,36 @@ import {
     CardContainer,
 } from './ProjectsStyles';
 
+// type ProjectsProps = {
+//     openModal: {
+//         state: boolean;
+//         project: {
+//             image: string;
+//             title: string;
+//             date: string;
+//             tags: string[];
+//             description: string;
+//             member: {
+//                 img: string;
+//                 name: string;
+//                 github: string;
+//                 linkedin: string;
+//             }[];
+//             github: string;
+//             webapp: string;
+//         } | null;
+//     };
+//     setOpenModal: (openModal: {
+//         state: boolean;
+//         project: Project;
+//     }) => void | null;
+// };
+
 type ProjectsProps = {
-    openModal: {
-        state: boolean;
-        project: {
-            image: string;
-            title: string;
-            date: string;
-            tags: string[];
-            description: string;
-            member: {
-                img: string;
-                name: string;
-                github: string;
-                linkedin: string;
-            }[];
-            github: string;
-            webapp: string;
-        } | null;
-    };
-    setOpenModal: (openModal: {
-        state: boolean;
-        project: Project;
-    }) => void | null;
+    setOpenModal: (args: { state: boolean; project: Project }) => void;
 };
 
-const Projects = ({ openModal, setOpenModal }: ProjectsProps) => {
+const Projects = ({ setOpenModal }: ProjectsProps) => {
     const [toggle, setToggle] = useState('all');
     return (
         <Container id="projects">
@@ -121,7 +125,6 @@ const Projects = ({ openModal, setOpenModal }: ProjectsProps) => {
                         projects.map((project) => (
                             <ProjectCard
                                 project={project}
-                                openModal={openModal}
                                 setOpenModal={setOpenModal}
                             />
                         ))}
@@ -130,7 +133,6 @@ const Projects = ({ openModal, setOpenModal }: ProjectsProps) => {
                         .map((project) => (
                             <ProjectCard
                                 project={project}
-                                openModal={openModal}
                                 setOpenModal={setOpenModal}
                             />
                         ))}

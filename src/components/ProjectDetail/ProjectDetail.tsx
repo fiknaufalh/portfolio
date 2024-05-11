@@ -17,27 +17,14 @@ import {
     Title,
     Wrapper,
 } from './ProjectDetailStyles';
+import { Project } from '../Cards/Project/ProjectCard';
 
 type ProjectDetailProps = {
     openModal: {
         state: boolean;
-        project: {
-            image: string;
-            title: string;
-            date: string;
-            tags: string[];
-            description: string;
-            member: {
-                img: string;
-                name: string;
-                github: string;
-                linkedin: string;
-            }[];
-            github: string;
-            webapp: string;
-        } | null;
+        project: Project;
     };
-    setOpenModal: (openModal: { state: boolean; project: null }) => void;
+    setOpenModal: (args: { state: boolean; project: Project }) => void;
 };
 
 const ProjectDetail = ({ openModal, setOpenModal }: ProjectDetailProps) => {

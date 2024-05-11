@@ -14,19 +14,24 @@ import {
 
 export type Project = {
     image: string;
-    tags?: string[];
+    tags: string[];
     title: string;
     date: string;
     description: string;
-    member?: { img: string }[];
+    member?:
+         {
+              img: string;
+              name: string;
+              github: string;
+              linkedin: string;
+          }[]
+        | null;
+    github: string;
+    webapp?: string;
 } | null;
 
 type ProjectCardsProps = {
     project: Project | null;
-    openModal: {
-        state: boolean;
-        project: Project;
-    };
     setOpenModal: (args: { state: boolean; project: Project }) => void;
 };
 
