@@ -11,6 +11,7 @@ import {
     Members,
     Avatar,
 } from './ProjectCardStyles';
+// import Img from '../../../images/Asclepius.png';
 
 export type Project = {
     image: string;
@@ -19,7 +20,7 @@ export type Project = {
     date: string;
     description: string;
     member?:
-         {
+        | {
               img: string;
               name: string;
               github: string;
@@ -38,7 +39,7 @@ type ProjectCardsProps = {
 const ProjectCards = ({ project, setOpenModal }: ProjectCardsProps) => {
     return (
         <Card onClick={() => setOpenModal({ state: true, project: project })}>
-            <Image src={project?.image} />
+            <Image src={`${project?.image}`} />
             <Tags>
                 {project?.tags?.map((tag, index) => (
                     <Tag key={index}>{tag}</Tag>

@@ -55,7 +55,7 @@ export const projects = [
       Using MySQL as database system that deployed in Azure Database for MySQL service;\n
       Deploy the microservice in the Azure Container Service using Docker`,
     image:
-      "https://github.com/fiknaufalh/portfolio/blob/main/src/images/BevBuddy%20-%20Recommendation.png?raw=true",
+      "https://raw.githubusercontent.com/fiknaufalh/portfolio/main/src/images/BevBuddy%20-%20Recommendation.png",
     tags: [
       "Python",
       "FastAPI",
@@ -102,7 +102,7 @@ export const projects = [
       Created article feature for users to read the article about skin cancer;\n`
       ,
     image:
-      "https://github.com/fiknaufalh/portfolio/blob/main/src/images/Asclepius.png?raw=true",
+      "https://raw.githubusercontent.com/fiknaufalh/portfolio/main/src/images/Asclepius.png",
     tags: [
       "Android",
       "Kotlin",
