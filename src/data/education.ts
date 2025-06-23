@@ -1,12 +1,11 @@
 export const education = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/C560BAQGJoYkUiQpUKA/company-logo_100_100/0/1630672186443/itb_logo?e=1723680000&v=beta&t=YkLHhVLEz0AFWMWtnhRCqI4S01UNO-iy9-3UpBkA2yk",
+    img: "https://upload.wikimedia.org/wikipedia/id/9/95/Logo_Institut_Teknologi_Bandung.png",
     school: "Bandung Institute of Technology (ITB)",
     date: "Aug 2021 - Oct 2025 (expected)",
-    grade: "3.70 CGPA",
-    desc: `Relevant Coursework: Software Engineering, Algorithm and Data Structure, Object Oriented Programming, 
-          Database Management, Computer Network, Embedded Systems, Analysis & Design of System Performance`,
+    grade: "3.73 CGPA",
+    desc: `Relevant Coursework: Software Engineering, Algorithm and Data Structure, Object Oriented Programming, Database Management, Analysis & Design of System Performance, Distributed Application Architecture`,
     degree: "Bachelor of Technology - B.Eng, Information System and Technology",
   },
   {
