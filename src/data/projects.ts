@@ -2,7 +2,7 @@ export const projects = [
   {
     id: 0,
     title: "MealsHub",
-    date: "Okt 2023 - Nov 2023",
+    date: "Oct 2023 - Nov 2023",
     description:
       `A website based system named MealsHub for ordering menu and payment with multiple user type;\n
       Developed REST APIs using TypeScript and ExpressJs as the framework with Object Oriented approach;\n
@@ -25,7 +25,7 @@ export const projects = [
   {
     id: 1,
     title: "Plantix",
-    date: "Okt 2023 - Nov 2023",
+    date: "Oct 2023 - Nov 2023",
     description:
       `A website based system named Plantix for monitoring plant condition and predict the weather around the farm;\n
       Developed REST APIs using Python and FastAPI as the framework with Swagger UI for documentation;\n
